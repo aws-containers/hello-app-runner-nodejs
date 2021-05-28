@@ -1,0 +1,76 @@
+{
+    "TABLE_NAME": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Title": {
+                        "S": "0-2. Getting Started with App Runner using Copilot"
+                    },
+                    "Done": {
+                        "S": "y"
+                    },
+                    "ItemId": {
+                        "S": "a90c9a5d-3be6-4429-b76d-b3ec8932d96b"
+                    },
+                    "Detail": {
+                        "S": "As you're seeing this page, you're successfully running the [sample application](https://github.com/aws-containers/hello-app-runner-nodejs) on App Runner using Copilot!\n\nBack to the [top page](/) for further steps!"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Title": {
+                        "S": "3. Set-up Release Pipeline"
+                    },
+                    "Done": {
+                        "S": "n"
+                    },
+                    "ItemId": {
+                        "S": "acb87c27-4232-45a7-9cb0-6742af21e051"
+                    },
+                    "Detail": {
+                        "S": "You'll execute two Copilot commands to set-up your release pipeline in CodePiepline as follows:\n\n```\n$ copilot pipeline init\n\n$ copilot pipeline update\n```\n\nNote that you may require to take manual actions to authorize Copilot access to your GitHub repository. If you're using AWS CodeCommit for the tutorial, then it'll required no manual actions and be configured in a fully automated way."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Title": {
+                        "S": "4. Try \"push-to-deploy\""
+                    },
+                    "Done": {
+                        "S": "n"
+                    },
+                    "ItemId": {
+                        "S": "a53c25c3-6d75-41f2-9453-a6cc22ccdae7"
+                    },
+                    "Detail": {
+                        "S": "In this step, you'll make some edits in the file in your local workspace, and commit & push it to your Git repository to check how the pipeline you've created in the previous step works.\n\nHere's the summary of the commands:\n\n```bash\n$ vim ./components/layout.js\n\n$ git add . && git commit -m \"Update something\"\n\n$ git push\n```"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Title": {
+                        "S": "5. Cleanup and Resources to Learn"
+                    },
+                    "Done": {
+                        "S": "n"
+                    },
+                    "ItemId": {
+                        "S": "28f3aa45-7437-4b2a-abd9-863321161e28"
+                    },
+                    "Detail": {
+                        "S": "In this final step, all you will do is just executing one command. Then Copilot will take care of everything to wipe out the resources you've created in this tutorial.\n\n```bash\n$ copilot app delete --name my-app --yes\n```\n\nWell done!\n\nThere are more resources to learn about AWS App Runner and AWS Copilot CLI, and we encourage you to check out them!\n\n\n- [Introducing AWS App Runner | Containers](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/)\n- [AWS Copilot Documentation](https://aws.github.io/copilot-cli)\n- [AWS App Runner Documentation](https://docs.aws.amazon.com/apprunner)\n- [AWS App Runner Workshop](https://apprunnerworkshop.com)\n- [AWS App Runner Public Roadmap at GitHub](https://github.com/aws/apprunner-roadmap/projects/1) - See the latest roadmap info and leave your requests and feedback to the App Runner team directly!\n\nHappy building with App Runner and Copilot! 👋"
+                    }
+                }
+            }
+        }
+    ]
+}

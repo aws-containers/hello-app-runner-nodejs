@@ -1,0 +1,8 @@
+.git
+README.md
+copilot
+.env.local
+docs
+node_modules
+apprunner.yml
+./seed/seed-img.sh
